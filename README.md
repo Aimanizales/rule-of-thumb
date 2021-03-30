@@ -1,13 +1,18 @@
-# Rule of Thumb (Zemoga Front End Development - Candidate Test v2.1)
+# Rule of Thumb
+Zemoga Front End Development
 
-https://github.com/zemoga/ui-test
+[Candidate Test v2.1](https://github.com/zemoga/ui-test)
+
+## Prototypes:
+[Mobile Prototype](https://www.figma.com/proto/NlQ6PjfanVO2YyuDUaohjx/Rule-of-Thumb---FED-Challenge?node-id=6%3A43&scaling=min-zoom)
+Tablet Prototype
+Desktop Prototype
+Design Handoff (Figma)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
+### Available Scripts
 
 ### `yarn start`
 
