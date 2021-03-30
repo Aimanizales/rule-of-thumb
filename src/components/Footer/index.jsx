@@ -1,6 +1,13 @@
+import styled from 'styled-components';
+
+const FooterStyled = styled.footer`
+    border: thin solid red;
+    background-color: #ccc;
+`
+
 function Footer () {
     return (
-        <footer>
+        <FooterStyled>
             <ul>
                 <li>Terms and Conditions</li>
                 <li>Privacy and Policy</li>
@@ -12,7 +19,7 @@ function Footer () {
                 <li>Facebook</li>
                 <li>Twitter</li>
             </ul>
-        </footer>
+        </FooterStyled>
     )
 };
 

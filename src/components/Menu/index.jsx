@@ -2,10 +2,11 @@ import React from "react";
 import {
     Link
 } from "react-router-dom";
+import NavMenu from './StyledMenu.js';
 
 function Menu () {
     return (
-        <nav>
+        <NavMenu>
             <ul>
                 <li>
                     <Link to="/">Home</Link>
@@ -17,7 +18,7 @@ function Menu () {
                     <Link to="/users">Users</Link>
                 </li>
             </ul>
-        </nav>
+        </NavMenu>
 )};
 
 export default Menu;
