@@ -1,4 +1,7 @@
-# Rule of Thumb
+# Rule of Thumb (Zemoga Front End Development - Candidate Test v2.1)
+
+https://github.com/zemoga/ui-test
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
