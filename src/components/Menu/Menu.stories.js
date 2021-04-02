@@ -1,30 +1,21 @@
 import React from 'react';
-
+import StoryRouter from 'storybook-react-router';
 import Menu from './index';
 
-export const MenuStory = () => <Menu/>;
+const MenuStory = () => <Menu/>;
 
-// const Template = (args) => <Button {...args} />;
+//👇 This default export determines where your story goes in the story list
+export default {
+  title: 'Menu',
+  component: MenuStory,
+  decorators: [StoryRouter()],
+};
 
-// export const Primary = Template.bind({});
-// Primary.args = {
-//   primary: true,
-//   label: 'Button',
-// };
+//👇 We create a “template” of how args map to rendering
+const Template = (args) => <MenuStory {...args} />;
 
-// export const Secondary = Template.bind({});
-// Secondary.args = {
-//   label: 'Button',
-// };
+export const NormalMenu = Template.bind({});
 
-// export const Large = Template.bind({});
-// Large.args = {
-//   size: 'large',
-//   label: 'Button',
-// };
-
-// export const Small = Template.bind({});
-// Small.args = {
-//   size: 'small',
-//   label: 'Button',
-// };
+NormalMenu.args = {
+  /*👇 The args you need here will depend on your component */
+};
