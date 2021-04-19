@@ -2,15 +2,20 @@ import React from 'react';
 
 import Menu from './index';
 
-export const MenuStory = () => <Menu/>;
+//👇 This default export determines where your story goes in the story list
+export default {
+    title: 'Menu',
+    component: Menu,
+};
 
-// const Template = (args) => <Button {...args} />;
+//👇 We create a “template” of how args map to rendering
+const Template = (args) => <Menu {...args} />;
 
-// export const Primary = Template.bind({});
-// Primary.args = {
-//   primary: true,
-//   label: 'Button',
-// };
+export const Primary = Template.bind({});
+Primary.args = {
+    primary: true,
+    label: 'Jueputa!!',
+};
 
 // export const Secondary = Template.bind({});
 // Secondary.args = {
