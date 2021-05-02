@@ -1,6 +1,21 @@
+import Card from '../../components/Card';
+
 function Home () {
     return (
-        <h2>Home gonorrea ooome</h2>
+        <>
+            <section>
+                Banner
+            </section>
+            <div>
+                <h2>Previous rulings</h2>
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+            </div>
+        </>
     )
 };
 

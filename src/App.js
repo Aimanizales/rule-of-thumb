@@ -5,20 +5,21 @@ import {
     Route,
 } from "react-router-dom";
 
-import './App.css';
+import Theme from "./theme/Theme";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Users from "./pages/Users";
 
 function App() {
     return (
-        <>    
+        <Theme>
             <Router>
-                <Header>
-                    <h1>Rule of Thumb</h1>
-                </Header>
+                <Hero>
+                    <Header />
+                </Hero>
                 <main>
                     <Switch>
                         <Route exact path="/">
@@ -34,7 +35,7 @@ function App() {
                 </main>
             </Router>
             <Footer />
-        </>
+        </Theme>
     );
 }
 

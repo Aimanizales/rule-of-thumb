@@ -10,6 +10,7 @@ const HeaderStyled = styled.header`
 function Header ({ children }) {
     return (
         <HeaderStyled>
+            <h1>Rule of Thumb</h1>
             {children}
             <Menu />
         </HeaderStyled>
