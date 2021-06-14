@@ -9,13 +9,13 @@ function Menu () {
         <NavMenu>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/past-trials">Past Trials</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/how-it-works">How it Works</Link>
                 </li>
                 <li>
-                    <Link to="/users">Users</Link>
+                    <Link to="/login">Login / Sign Up</Link>
                 </li>
             </ul>
         </NavMenu>
