@@ -1,14 +1,15 @@
 import { React } from 'react';
 import Card from '../Card';
+import Main from './StyledCardsContainer';
 
 function CardsContainer () {
     return (
-        <div>
+        <Main>
             <Card name="Aiman" />
             <Card />
             <Card />
             <Card />
-        </div>
+        </Main>
     )
 };
 
