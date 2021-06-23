@@ -1,15 +1,15 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-	body {
+    body {
         // color: ${props => (props.whiteColor ? 'white' : 'black')};
-		font-family: 'Lato', sans-serif;
-	}
+        font-family: 'Lato', sans-serif;
+    }
 `;
 
 const theme = {
     color: 'red',
-	fonts: ["sans-serif", "Lato"],
+    fonts: ["sans-serif", "Lato"],
 };
 
 export default theme;
