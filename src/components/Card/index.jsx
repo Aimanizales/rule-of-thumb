@@ -4,10 +4,10 @@ const CardStyled = styled.div`
 	border: 1px solid ${({ theme }) => theme.colors.persianGreen || 'black'};
 `;
 
-function Card () {
+function Card ({ name = "Sin nombre" }) {
     return (
         <CardStyled>
-            Card
+            {name}
         </CardStyled>
     );
 };	
